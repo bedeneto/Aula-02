@@ -1,0 +1,11 @@
+#imprimir em tela:
+31) False
+#2) True
+#3) False, porem utilizando AND
+#4) True, porem utilizando OR
+
+
+print(1>2)
+print(2>1)
+print(2>1 and 2==1)
+print(1<2 or 3!=4)
