@@ -1,0 +1,10 @@
+n1 = int(input("Digite a velocidade do carro: "))
+
+if n1 <= 60:
+    print("Está dentro do limite")
+elif n1 > 60 > 80:
+    print("Cuidado, vai levar multa")
+elif n1 >= 80 >= 120:
+    print("Quer morrer?")
+else:
+    print("Mal posso ver seus movimentos")
