@@ -1,0 +1,5 @@
+n1 = float(input("Digite um valor de um número:  "))
+n2 = float(input("Digite um valor de outro número: "))
+soma = n1+n2
+
+print(f"O primeiro número digitado é {n1} e o segundo é {n2}. A soma dos dois é {soma:.5f}")
