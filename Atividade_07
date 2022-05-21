@@ -1,0 +1,14 @@
+"""Crie o seguinte jogo:
+peça o palpite ao usuário.
+Indique se o palpite é menor, maior ou se é igual ao numero secreto."""
+
+n1 = 42
+
+Tent = int(input("Tente adivinhar o número inteiro secreto entre 1 ao 100: "))
+
+if Tent > n1:
+    print(f"O número secreto é menor que {Tent}")
+elif Tent < n1:
+    print(f"O número secreto é maior que {Tent}")
+else:
+    print(f"Parabéns, o número secreto é {n1}. Você acertou!")
