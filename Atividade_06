@@ -1,0 +1,25 @@
+#Atividade 06 - Faça um programa que leia a altura e o peso de um usuario e calcule seu imc
+""" IMC = (PESO/(ALTURA**2) """
+"""
+- Se o IMC for menor que 18.5, abaixo do peso
+- Se o IMC for entre 18.5 e 24.9, normal
+- Se op IMC for entre 25 e 29.0, sobrepeso
+- Se o IMC for entre 30 e 39.9, obesidade tipo 1
+- Se o IMC for maior que 40, ALERTA: Obesidade morbida
+"""
+
+Peso = float(input("Digite o peso do paciente: "))
+Altura = float(input("Digite a altura do paciente: "))
+
+IMC = (Peso/(Altura**2))
+
+if IMC < 18.5:
+    print(f"O paciente tem IMC {IMC} e significa que está Abaixo do peso.")
+elif IMC >= 18.5 >= 24.9:
+    print(f"O paciente tem IMC {IMC} e significa que está em condições normais.")
+elif IMC > 25 >= 29.9:
+    print(f"O paciente tem IMC {IMC} e significa que está com sobrepeso.")
+elif IMC > 30 >= 39.9:
+    print(f"O paciente tem IMC {IMC} e significa que está com obesidade tipo 1.")
+else:
+    print(f"O paciente tem IMC {IMC}. ALERTA DE OBESIDADE MÓRBIDA.")
