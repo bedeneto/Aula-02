@@ -1,0 +1,18 @@
+#Atividade 08
+"""Crie um código que indique se a temperatura digitada pelo usuário caracteriza:
+1) Temp Normal - até 37ºC
+2) Febril - até 37.8ºC
+3) Febre Leve - até 38.5ºC
+4) Febre moderada - 38.5ºC a 39.4ºC
+5) Febre grave - 39.5ºC"""
+
+Temp = float(input("Qual a temperatura do paciente? "))
+
+if Temp <= 37.8:
+    print(f"O paciente está com {Temp}ºC, temperatura normal")
+elif Temp <= 38.5:
+    print(f"O paciente está com {Temp}ºC, está febril")
+elif Temp <= 39.4:
+    print(f"O paciente está com {Temp}ºC, com febre moderada")
+else:
+    print(f"O paciente está com {Temp}ºC, com febre grave")
