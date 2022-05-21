@@ -1,0 +1,12 @@
+#Atividade 12
+"""peça usuário e senha:
+O acesso só é permitido se o usuário for INFINITY e a senha school
+caso não ocorra o cruzamento das info acima, mostre em tela ACESSO NEGADO"""
+
+user = input("Digite o nome de usuário: ").lower()
+senha = input("Digite a senha de acesso: ")
+
+if user == 'infinity' and senha == 'school':
+    print("Bem vindo a plataforma da escola!")
+else:
+    print("ACESSO NEGADO")
