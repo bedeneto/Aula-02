@@ -1,5 +1,6 @@
 import random
 
+
 def play():
     usuario = input("Escolha 'pedra', 'papel' ou 'tesoura': ")
     pc = random.choice(['pedra', 'papel', 'tesoura'])
@@ -13,12 +14,13 @@ def play():
 
     return 'Você perdeu...'
 
+
 def venceu(usuario, pc):
-    # return = true se usuario vencer
-    # pedra > tesoura, tesoura > papel, papel > pedra
-    if (usuario == 'pedra' and pc == 'tesoura') or (usuario == 'tesoura' and pc == 'papel') \
-        or (usuario == 'papel' and pc == 'pedra'):
+  
+    if (usuario == 'pedra' and pc == 'tesoura') \
+            or (usuario == 'tesoura' and pc == 'papel') \
+            or (usuario == 'papel' and pc == 'pedra'):
         return True
 
-print(play())
 
+print(play())
